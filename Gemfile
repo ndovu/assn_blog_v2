@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
 
 gem 'bootstrap-sass', '~> 3.3.4'
-gem 'quiet_assets', group: :development
+
 gem "simple_form"
+gem 'devise'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -51,6 +52,7 @@ group :development, :test do
   gem "hirb"
   gem "interactive_editor"
   gem "awesome_print"
+  gem 'quiet_assets'
 
 end
 
